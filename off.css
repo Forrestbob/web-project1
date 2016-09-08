@@ -1,5 +1,10 @@
 body {
 	text-align: center;
+	background-image: url("images/iphone.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+    background-position: center; 
+	background-size: 300px 570px;
 }
 
 img.iphone {
