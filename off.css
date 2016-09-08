@@ -3,11 +3,22 @@ body {
 	background-image: url("images/iphone.jpg");
 	background-repeat: no-repeat;
 	background-attachment: fixed;
-    background-position: center; 
-	background-size: 300px 570px;
+    background-position: center top; 
 }
 
-img.iphone {
-	width: 300px;
-	height: 570px;
+img.black {
+/*
+top left:
+x = 33
+y = 82
+
+bottom right:
+x = 263
+y = 490
+*/
+	height: 408px;
+	width: 229px;
+	margin-top: 74px;
+	margin-right: 3px;
+
 }
