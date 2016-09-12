@@ -1,9 +1,12 @@
 body {
 	text-align: center;
-	background-image: url("images/iphone.png");
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-    background-position: center top; 
+	background-image: url("images/Wallpaper.jpg"), url("images/iphone.png"), url("images/mac.jpg");
+	background-repeat: no-repeat, no-repeat, repeat;
+	background-attachment: fixed, relative, fixed;
+    background-position: center 82px, center top, center top; 
+	/*height: 408px, auto;
+	width: 229px, auto;*/
+	background-size: 232px 408px, auto, 100% auto;
 }
 
 img.wallpaper {
@@ -17,12 +20,32 @@ img.wallpaper {
 }
 
 table {
-	border: 3px solid blue; 
-	width: 230px; 
+	border: 1px solid transparent; 
+	width: 228px; 
 	height: 408px; 
-	margin-top: 74px;
-	margin-right: 3px;
-	
-	
-	
+	/*margin-top: 74px;
+	margin-right: 3px;*/
+	display: block;
+    margin: 78px auto;
+	border-collapse:collapse;
 }
+
+tr:not(:last-of-type) th{
+	width: 60px;
+	height: 52px;
+	border: 1px solid blue; 
+}
+
+tr:last-of-type {
+	background-color: gray;
+	height: 60px;
+	padding-top: 10px;
+}
+
+img {
+	width: 40px;
+	height: 40px;
+	text-align: center;
+	margin-left: 1px;
+}
+
