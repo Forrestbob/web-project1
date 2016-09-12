@@ -1,0 +1,28 @@
+body {
+	text-align: center;
+	background-image: url("images/iphone.jpg");
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+    background-position: center top; 
+}
+
+img.wallpaper {
+
+	height: 408px;
+	width: 229px;
+	margin-top: 74px;
+	margin-right: 3px;
+	position: relative;
+	 
+}
+
+table {
+	border: 3px solid blue; 
+	width: 230px; 
+	height: 408px; 
+	margin-top: 74px;
+	margin-right: 3px;
+	
+	
+	
+}
