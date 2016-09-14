@@ -33,13 +33,28 @@ table {
 tr:not(:last-of-type) th{
 	width: 60px;
 	height: 52px;
-	border: 1px solid blue; 
+	border: 1px solid transparent; 
+	
+}
+
+tr:first-of-type th {
+	padding-top: 10px;
 }
 
 tr:last-of-type {
-	background-color: gray;
+	background-color: #595959;
 	height: 60px;
-	padding-top: 10px;
+	padding-top: 20px;
+	
+}
+
+tr:nth-last-of-type(2) th {
+    padding-bottom: 13px;
+}
+
+tr:last-of-type th {
+	/*padding-top: 20px;*/
+
 }
 
 img {
