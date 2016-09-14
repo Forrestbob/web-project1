@@ -12,6 +12,7 @@ body {
 	position: absolute;
 	margin-left: 20px;
 	text-align: left;
+	text-shadow: -1px 0 white, 0 1px white, 1px 0 white, 0 -1px white;
 }
 
 .black {

@@ -4,17 +4,7 @@ body {
 	background-repeat: no-repeat, no-repeat, repeat;
 	background-attachment: fixed, relative, fixed;
     background-position: center 82px, center top, center top; 
-	/*height: 408px, auto;
-	width: 229px, auto;*/
 	background-size: 232px 408px, auto, 100% auto;
-	
-}
-
-* {
-	color: white;
-	font-family: Tahoma, Geneva, sans-serif;
-	font-size: 8px;
-	font-weight: 100;
 }
 
 img.wallpaper {
@@ -24,15 +14,12 @@ img.wallpaper {
 	margin-top: 74px;
 	margin-right: 3px;
 	position: relative;
-	 
 }
 
 table {
 	border: 1px solid transparent; 
 	width: 228px; 
 	height: 408px; 
-	/*margin-top: 74px;
-	margin-right: 3px;*/
 	display: block;
     margin: 78px auto;
 	border-collapse:collapse;
@@ -42,7 +29,6 @@ tr:not(:last-of-type) th{
 	width: 60px;
 	height: 52px;
 	border: 1px solid transparent; 
-	
 }
 
 tr:first-of-type th {
@@ -53,7 +39,6 @@ tr:last-of-type {
 	background-color: #595959;
 	height: 60px;
 	padding-top: 20px;
-	
 }
 
 tr:nth-last-of-type(2) th {
@@ -62,7 +47,6 @@ tr:nth-last-of-type(2) th {
 
 tr:last-of-type th {
 	padding-top: 10px;
-
 }
 
 img {
@@ -70,5 +54,12 @@ img {
 	height: 40px;
 	text-align: center;
 	margin-left: 1px;
+}
+
+th {
+	color: white;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 8px;
+	font-weight: 100;
 }
 
